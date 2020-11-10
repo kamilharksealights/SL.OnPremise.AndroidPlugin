@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.sealights.android",
+    "module": "SL.OnPremise.AndroidPlugin",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "23vcrwxcrve65bju6icscxosva"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "SL.OnPremise.AndroidPlugin-3.0.0.jar",
+          "url": "SL.OnPremise.AndroidPlugin-3.0.0.jar",
+          "size": 4552,
+          "sha512": "9307456ad0502a7b0ea987c2208087dfda82d74047eb538475ed9e7ee5050ba9493d3d4461c89b296b94ba097bcf853ee40ed317239cbedf447f6104fc3207b4",
+          "sha256": "d12a6af10a68ba98d6ddbef1573de42ca40df4ff52a932a8440f9a3d0601e45a",
+          "sha1": "24af63917493c3b242af5620288257fdd7cda6c6",
+          "md5": "f4c5457ba81e6d33f491ca9ba59d34f3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle-api",
+          "version": {
+            "requires": "4.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "SL.OnPremise.AndroidPlugin-3.0.0.jar",
+          "url": "SL.OnPremise.AndroidPlugin-3.0.0.jar",
+          "size": 4552,
+          "sha512": "9307456ad0502a7b0ea987c2208087dfda82d74047eb538475ed9e7ee5050ba9493d3d4461c89b296b94ba097bcf853ee40ed317239cbedf447f6104fc3207b4",
+          "sha256": "d12a6af10a68ba98d6ddbef1573de42ca40df4ff52a932a8440f9a3d0601e45a",
+          "sha1": "24af63917493c3b242af5620288257fdd7cda6c6",
+          "md5": "f4c5457ba81e6d33f491ca9ba59d34f3"
+        }
+      ]
+    }
+  ]
+}
